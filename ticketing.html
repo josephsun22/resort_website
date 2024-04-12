@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>Buddhist Holy Land | Ticketing</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="js/aos/aos.css">
+</head>
+
+<body id="Ticketing">
+    <canvas id="canvas"></canvas>
+    <header>
+        <nav id="navbar">
+            <div id="logo">
+                <img src="images&files/logo.png" alt="logo"/>
+            </div>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="introduction.html">Introduction</a></li>
+                <li><a href="attractions.html">Attractions</a></li>
+                <li><a href="recommendations.html">Recommendations</a></li>
+                <li><a href="culture.html">Culture</a></li>
+                <li><a class="current" href="#">Ticketing</a></li>
+                <li><a href="register.html"><img src="images&files/login.png" alt="logIn" /></a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+    <nav class="aside-navbar">
+        <input type="checkbox" id="checkbox">
+        <label for="checkbox">
+            <img src="images&files/menu.png" alt="checkbox">
+        </label>
+        <ul>
+            <li>
+                <img src="images&files/logo.png" alt="logo">
+                <span>Buddhist Holy Land</span>
+            </li>
+            <li>
+                <a href="index.html">
+                    <img src="./images&files/dot.png" alt="dot">
+                    <span>Home</span></a>
+            </li>
+            <li>
+                <a href="introduction.html">
+                    <img src="images&files/dot.png" alt="dot">
+                    <span>Introduction</span></a>
+            </li>
+            <li>
+                <a href="attractions.html">
+                    <img src="images&files/dot.png" alt="dot">
+                    <span>Attractions</span></a>
+            </li>
+            <li>
+                <a href="recommendations.html">
+                    <img src="images&files/dot.png" alt="dot">
+                    <span>Recommendations</span></a>
+            </li>
+            <li>
+                <a href="culture.html">
+                    <img src="images&files/dot.png" alt="dot">
+                    <span>Culture</span></a>
+            </li>
+            <li>
+                <a href="ticketing.html">
+                    <img src="images&files/dot.png" alt="dot">
+                    <span>Ticketing</span></a>
+            </li>
+            <li>
+                <a href="register.html">
+                    <img src="images&files/dot.png" alt="dot">
+                    <span>Log In</span></a>
+            </li>
+        </ul>
+    </nav>
+
+
+
+    <section class="Manage">
+        <section class="game">
+             <section class="tour-guide" data-aos="slide-right">
+                <h2>Your exclusive guide</h2>
+                <nav id="name">
+                    <label for="l-name">What's your name?</label>
+                    <input type="text" name="name" id="l-name">
+                    <button class="guide-button">Continue</button>
+                    <p>Welcome,</p>
+                </nav>
+
+                <nav id="preference">
+                    <label for="l-preference" >Why do you come to Buddhist holy land for vacation?</label>
+                    <select name="preference" id="l-preference">
+                        <option value="1">Hope to experience Buddhist culture</option>
+                        <option value="2">Enjoy mountain scenery and outdoor sports</option>
+                    </select>
+                    <button>Continue</button>
+                    <p class="first">We strongly recommend  Holy Land Temple and Chan culture park!</p>
+                    <p class="second">We strongly recommend Cliffside Carvings and Shoulder to shoulder with the sun!</p>
+                </nav>
+
+                <nav id="route-choice">
+                    <label for="l-route-choice">Which theme tour do you prefer?</label>
+                    <select name="route-choice" id="l-route-choice">
+                        <option value="1">Buddhism pilgrimage</option>
+                        <option value="2">Leisure vacation trip</option>
+                        <option value="3">Historical and cultural tour</option>
+                    </select>
+                    <button>Continue</button>
+                    <p class="first">Route: Holy Land Temple -> Holy Land Palace -> Chan Culture Park</p>
+                    <p class="second">Route: Cliffside Carvings -> Usnisa Pagoda -> Shoulder to shoulder with the sun</p>
+                    <p class="third">Route:Chan Culture Park -> Usnisa Pagoda -> And feel free to go other attractions</p>
+                </nav>
+
+                <button>What'more?</button>
+
+                <nav id="personalise">
+                    <p class="first">It seems that you are a Buddhist lover. Now the resort is holding these activities. Welcome to sign up!
+                        <br>Zen cultural activities is recruiting.
+                        <br>Bathing Buddha Festival.
+                        <br>Sangha Day.
+                        <br>Explore more on our website!
+                    </p>
+
+                    <p class="second">
+                        I believe you love nature and sports, and I recommend the following to you:
+                        <br>The mountain trekking.
+                        <br>Due to our effort to wildlife protection, you can enjoy the natural scenery and wild animals along the way.
+                        <br>Explore more on our website!
+                    </p>
+                </nav>
+
+                <nav>
+                    <a class="pink-button" href="ticketing.html">Try again</a>
+                    <a class="pink-button" href="index.html">Back home</a>
+                </nav>
+            </section>
+
+            <section class="price-list" data-aos="flip-up">
+                <h2>Price list</h2>
+    
+                <article>
+                    <h2>For adults:</h2>
+                    <p>AUD30</p>
+                </article>
+    
+                <article>
+                    <h2>For children:</h2>
+                    <p>AUD15</p>
+                </article>
+    
+                <article>
+                    <h2>For students:</h2>
+                    <p>AUD20</p>
+                </article>
+    
+                <article>
+                    <h2>For the Elderly:</h2>
+                    <p>For free!</p>
+                </article>
+            </section>          
+        </section>
+
+        <section class="ticketing">
+            <h2>Buy tickets now!</h2>
+
+            <form class="payment">
+
+                <fieldset>
+                    <legend>STEP:1 Your details</legend>
+                    <ol>
+                        <li>
+                            <label for="Name">Name：</label>
+                            <input id="Name" type="text" placeholder="Enter your name" required autofocus>
+                        </li>
+                        <li>
+                            <label for="email">Email：</label>
+                            <input id="email" type="text" placeholder="123@outlook.com" required>
+                        </li>
+                        <li>
+                            <label for="phone">Phone：</label>
+                            <input id="phone" type="number" placeholder="numbers only">
+                        </li>
+                    </ol>
+                </fieldset>
+
+                <fieldset>
+                    <legend>STEP2：Personalized purchase</legend>
+                    <ol>
+                        <li>
+                            <label for="ticket">Ticket type：</label>
+                            <select id="ticket" name="form-state">
+                                <option>Adult</option>
+                                <option>Child</option>
+                                <option>Student</option>
+                                <option>Elderly</option>
+                            </select>
+                        </li>
+                        <li>
+                            <label for="amounts">Amounts:</label>
+                            <input id="amounts" type="number" placeholder="Enter a number" required>
+                        </li>
+                        <li>
+                            <label for="date">Ideal date:</label>
+                            <input id="date" type="date" required>
+                        </li>
+                        <li>
+                            <label for="remarks">Remarks</label>
+                            <input id="remarks" type="text" placeholder="Please leave a message for additional needs">
+                            <p>Total price to be paid:</p>
+                            <button class="pink-button" id="calculate">Calculate</button>
+                        </li>
+                    </ol>
+                </fieldset>
+
+                <fieldset>
+                    <legend>STEP3: Payment</legend>
+                    <ol>
+                        <li>
+                            <fieldset>
+                                <label>Payment method</label>
+                                <ol>
+                                    <li>  
+                                        <input id="visa-pay" name="payment" type="radio" value="">                                 
+                                        <label for="visa-pay">Visa</label>
+                                    </li>
+                                    <li>                             
+                                        <input id="googlepay-pay" name="payment" type="radio" value="">
+                                        <label for="googlepay-pay">GooglePay</label>
+                                    </li>
+                                    <li>
+                                        <input id="alipay-pay" name="payment" type="radio" value="">
+                                        <label for="alipay-pay">AliPay</label>
+                                    </li>
+                                </ol>
+                            </fieldset>
+                        </li>
+                        <li>
+                            <label for="account">Account:</label>
+                            <input id="account" type="text" required>
+                        </li>
+                        <li>
+                            <label for="secure">Password：</label>
+                            <input id="secure" type="password" required>
+                        </li>
+                    </ol>
+                </fieldset>
+
+                <fieldset id='inprogess'>                   
+                    <button id="submit" type="submit">Purchase now</button>
+                </fieldset>
+            </form>
+        </section>
+    </section>
+
+    <div class="purchase-popup">
+        <section class="popup-list">
+
+            <nav class="close-button">
+                <a href="ticketing.html">Close</a>
+            </nav>
+
+            <article>
+                <section>
+                    <img id="tick" src="images&files/tick.png" alt="tick">
+                    <h1>You have successfully purchased</h1>
+                </section>
+            </article>
+
+            <section id="slideshow">
+                <article class="cycle-slideshow" data-cycle-fx="scrollHorz" data-cycle-pause-on-hover="true"
+                    data-cycle-speed="200">
+                    <div class="cycle-prev"></div>
+                    <div class="cycle-next"></div>
+                    <img src="images&files/picture1.jpg" alt="slideshow-image">
+                    <img src="images&files/picture2.jpg" alt="slideshow-image">
+                    <img src="images&files/picture3.jpg" alt="slideshow-image">
+                </article>
+            </section>
+
+            <div id="recommendBtn">
+                <a href="recommendations.html">View more recommendations now!</a>
+            </div>      
+        </section>
+    </div>
+
+    <script src="js/jquery-3.6.0.min.js"></script>
+    <script src="js/aos/aos.js"></script>
+    <script src="js/jquery.cycle2.min.js"></script>
+    <script src="js/script.js"></script>
+    
+</body>
+
+</html>
