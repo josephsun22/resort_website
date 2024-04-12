@@ -25,28 +25,20 @@ Resort highlights
 
 Descriptions of unique offerings (temples, meditation areas, cultural activities)
 High-quality image galleries
-Accommodations:
-
-Descriptions and photos of room types
-
 
 ### Booking:
 
 User-friendly reservation system
-Available dates (consider a calendar plugin)
-Secure payment gateway integration
-
+Payment Details Form
+Secure payment gateway integration(to be considered)
 
 ### User Login:
 
-Account creation with secure credentials
-Booking history
+Beautiful, user-friendly login interface.
 
 ### About Us:
 
 Story of the resort
-Focus on spiritual and peaceful atmosphere
-Getting Started (Local Development)
 
 ### Prerequisites:
 
